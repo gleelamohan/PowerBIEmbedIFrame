@@ -25,9 +25,13 @@ Copy the App ID displayed in the developer console and paste it inside manifest.
 
 ## Step 4:
 Run the following commands in your Terminal from the repository folder to build the live app and upload it to Quip
+  
 npm install
+  
 npm run build
+  
 quip-cli publish
+  
 quip-cli release --beta (and select the only version that appears in the list)
 
 
