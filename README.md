@@ -1,6 +1,6 @@
 # Embed PowerBI in the Quip
 
-##Prerequisites
+## Prerequisites
 
 You must have Node v12 or higher installed on your machine
 
