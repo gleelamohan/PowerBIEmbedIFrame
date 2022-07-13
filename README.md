@@ -3,6 +3,7 @@
 Prerequisites
 
 You must have Node v12 or higher installed on your machine
+
 Use the commands below in your Terminal to set up your machine. For more information, visit our Live Apps guide at https://quip.com/dev/liveapps/ .
 
 npm install -g quip-cli
