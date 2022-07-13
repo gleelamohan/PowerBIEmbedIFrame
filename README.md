@@ -12,29 +12,28 @@ quip-cli login
 
 ## Step 1:
 
-Download the code to the local.
+Clone this repository on your local machine
 
 
 ## Step 2:
 
-Login to Quip Developer Console and create a Live app
+Visit Quip Developer Console and click on "Create a Live App"
 
 ## Step 3:
+Copy the App ID displayed in the developer console and paste it inside manifest.json, replacing <<ENTER YOUR LIVE APP ID HERE>>.
 
-In the Live app - under the overview tab copy the AppID.
 
 ## Step 4:
+Run the following commands in your Terminal from the repository folder to build the live app and upload it to Quip
+npm install
+npm run build
+quip-cli publish
+quip-cli release --beta (and select the only version that appears in the list)
 
-Switch to downloaded code, open app-> Manifest.json, paste and replace the Id
 
 
 ## Step 5:
-
-open terminal -> set the path to the folder and run "npm run build" command.The app.ele file will get generated.
-
-
-## Step 6:
-
+If step 4 doesn't work, release to production
 Switch to Quip Developer Console -> Builds tab ->click upload app.ele  -> click upload and test then click release.
 
 
